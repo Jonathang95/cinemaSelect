@@ -70,9 +70,9 @@ footer {
 }
 
 .box {
-  flex: 1; /* Each box takes up equal space */
-  margin-right: 20px; /* Add some spacing between the boxes */
-  padding: 20px;
+  /* flex: 1; Each box takes up equal space */
+  margin-right: 20px; /*Add some spacing between the boxes */
+  padding: 20px; 
   background-color: #2c3e50;
   color: #ecf0f1;
 }
