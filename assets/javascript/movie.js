@@ -1,4 +1,4 @@
-const url = 'https://imdb_api4.p.rapidapi.com/get_movies_by_name';
+var url = 'https://imdb_api4.p.rapidapi.com/get_movies_by_name';
 const options = {
 	method: 'GET',
 	headers: {
