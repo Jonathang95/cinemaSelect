@@ -9,7 +9,7 @@ const option = {
 
 async function fetchData() {
     try {
-        const response = await fetch(url, option);
+        const response = await fetch(url2, option);
         const result = await response.json();
         console.log(result);
     } catch (error) {
