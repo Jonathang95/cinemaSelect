@@ -15,7 +15,10 @@ const options = {
 	try {
 		const response = await fetch(url, options);
 		const result = await response.json();
-		resultsEL.innerHTML = `<h1>${result[0].title}</h1>`
+		resultsEL.innerHTML = `<h1>Title: ${result[0].title}</h1>
+		<h1>Year: ${result[0].year}</h1>
+		<h1>Director: ${result[0].director}</h1>
+		<h1>IMBD Rating: ${result[0].rating}</h1>`
 		console.log(result);
 	} catch (error) {
 		console.error(error);
