@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="has-background-dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,8 @@
     <header class="has-background-grey">
         <h1 class="title has-text-light">Cinema Selector</h1>
     </header>
-    
-<!--
+
+    <!--
     <nav>
         <div class="dropdown">
             <button class="dropbtn">Genres</button>
@@ -28,17 +29,21 @@
 -->
 
 
-    <main class="has-background-dark columns">
-        <section class="m-auto column">
-            <h2 class="ml-6">Recommended</h2>
+    <main class="has-background-dark">
+        <section class="m-auto box">
+            <h2 class="has-text-centered">Recommended</h2>
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search...">
                 <button id="searchButton">Search</button>
             </div>
         </section>
 
-        <section class="section column">
-            <img src="https://i.gifer.com/U3tw.gif" alt="spongebob" id="mylist">
+        <section class="searchResults">
+            <section class="section">
+                <img src="https://i.gifer.com/U3tw.gif" alt="spongebob" id="mylist">
+            </section>
+            <section id="TitleResults" class="searchResults">
+            </section>
         </section>
 
     <br/>
@@ -60,9 +65,6 @@
             </div>
         </section>
     </main>
-    
-    <!-- <button class="button is-link" id="mylist">My list</button> -->
-    
     <footer class="has-background-grey">
         <p class="has-text-light">Created by BootCampElites</p>
     </footer>
@@ -92,9 +94,10 @@
         </div>
     </div>
 
-    <script src="assets/javascript/bulma.js"></script>
-    <script src="assets\javascript\movie.js"></script> 
-    <!-- <script src="assets\javascript\script.js"></script> -->
+    <script src="./assets/javascript/bulma.js"></script>
+    <script src="./assets/javascript/movie.js"></script> 
+    <script src="./assets/javascript/script.js"></script> 
+
 </body>
 
 </html>
