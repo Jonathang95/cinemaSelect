@@ -8,3 +8,10 @@ mylistButton.addEventListener('click', () => {
 modalBg.addEventListener('click', () => {
     modal.classList.remove('is-active');
 });
+
+
+let favoriteButton = document.querySelector('#scoobyDoo')
+
+favoriteButton.addEventListener('click', () => {
+    modal.classList.add('is-active');
+});

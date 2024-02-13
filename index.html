@@ -27,38 +27,74 @@
     </nav>
 -->
 
-    <main class="has-background-dark">
-        <section class="m-auto box">
-            <h2 class="has-text-centered">Recommended</h2>
+
+    <main class="has-background-dark columns">
+        <section class="m-auto column">
+            <h2 class="ml-6">Recommended</h2>
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search...">
                 <button id="searchButton">Search</button>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section column">
             <img src="https://i.gifer.com/U3tw.gif" alt="spongebob" id="mylist">
         </section>
 
-        <section class="m-auto box">
-            <h2 class="is-size-3">Favorites List</h2>
-            <!-- <button class="button is-link" id="mylist">My list</button> -->
+    <br/>
+        <section class="column m-auto" id="TitleResults">
+
+        </section>
+
+
+        <section class="m-auto column">
+            <div class="message is-dark"></div>
+            <div class="message-header">
+                <p class="has-text-centered">Favorite Movie poll</p>
+            </div>
+            <div class="message-body has-background-light">
+                <p>Please provide us with your favorite movie.</p>
+                <div class="has-text-centered">
+                    <button class="button mt-4 is-warning" id="scoobyDoo">Sign Up</button>
+                </div>
+            </div>
         </section>
     </main>
+    
+    <!-- <button class="button is-link" id="mylist">My list</button> -->
     
     <footer class="has-background-grey">
         <p class="has-text-light">Created by BootCampElites</p>
     </footer>
 
-    <div class="modal">
+    <!-- <div class="modal">
         <div class="modal-background"></div>
         <div class="modal-content has-background-link py-5 px-5">
             <h3 class="title has-text-centered">Naruto>>>One piece</h3>
         </div>
+    </div> -->
+
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content has-background-white py-5 px-5">
+            <h3 class="title has-text-centered">Fill in the blank</h3>
+            <form>
+                <div class="field">
+                    <label class="label">Favorite Movie</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Title">
+                    </div>
+                </div>
+                <div class="mt-5 has-text-centered">
+                    <button class="button is-danger">Submit</button>
+                </div>
+            </form>
+        </div>
     </div>
+
     <script src="assets/javascript/bulma.js"></script>
     <script src="assets\javascript\movie.js"></script> 
-    <script src="assets\javascript\script.js"></script>
+    <!-- <script src="assets\javascript\script.js"></script> -->
 </body>
 
 </html>
