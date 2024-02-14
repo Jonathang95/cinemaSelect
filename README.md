@@ -17,8 +17,8 @@ To get started with Cinema Select, simply open the url file in your web browser.
 ## Credits
 
 - **APIs Used**:
-  - [IMDb API](https://rapidapi.com/hmerritt/api/imdb-internet-movie-database-unofficial)
-  - [Streaming Availability API](https://rapidapi.com/streaming-availability/api/streaming-availability)
+  - [IMDb API](https://rapidapi.com/soyamchinglemba/api/imdb_api4/)
+  - [Streaming Availability API](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/)
 
 ## Contributors
 
