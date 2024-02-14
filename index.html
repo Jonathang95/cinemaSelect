@@ -14,21 +14,6 @@
         <h1 class="title has-text-light">Cinema Selector</h1>
     </header>
 
-    <!--
-    <nav>
-        <div class="dropdown">
-            <button class="dropbtn">Genres</button>
-            <div class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Drama</a>
-                <a href="#">Comedy</a>
-                <a href="#">Sci-Fi</a>
-            </div>
-        </div>
-    </nav>
--->
-
-
     <main class="has-background-dark columns">
         <section class="m-auto box column">
             <h2 class="has-text-centered">Recommended</h2>
@@ -40,7 +25,7 @@
 
         <section class="searchResults column">
             <section class="section">
-                <img src="https://i.gifer.com/U3tw.gif" alt="spongebob" id="mylist">
+                <img src="https://i.gifer.com/U3tw.gif" alt="spongebob">
             </section>
             <section id="TitleResults" class="searchResults">
             </section>
@@ -55,7 +40,7 @@
             <div class="message-body has-background-light">
                 <p>Please provide us with your favorite movie.</p>
                 <div class="has-text-centered">
-                    <button class="button mt-4 is-warning" id="scoobyDoo">Sign Up</button>
+                    <button class="button mt-4 is-warning" id="scoobyDoo">Click Here</button>
                 </div>
             </div>
         </section>
@@ -63,13 +48,6 @@
     <footer class="has-background-grey">
         <p class="has-text-light">Created by BootCampElites</p>
     </footer>
-
-    <!-- <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-content has-background-link py-5 px-5">
-            <h3 class="title has-text-centered">Naruto>>>One piece</h3>
-        </div>
-    </div> -->
 
     <div class="modal">
         <div class="modal-background"></div>
@@ -79,11 +57,12 @@
                 <div class="field">
                     <label class="label">Favorite Movie</label>
                     <div class="control">
-                        <input type="text" class="input" placeholder="Title">
+                        <input type="text" class="input" id="title" placeholder="Title">
                     </div>
                 </div>
+                <div id="pikachu" class="has-text-dark"></div>
                 <div class="mt-5 has-text-centered">
-                    <button class="button is-danger">Submit</button>
+                    <button class="button is-danger" id="bulbasaur">Submit</button>
                 </div>
             </form>
         </div>
