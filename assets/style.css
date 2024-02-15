@@ -82,4 +82,11 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
+#logoWrapper {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#logoWrapper img {
+  margin: 10px;
+}
